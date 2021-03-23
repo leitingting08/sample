@@ -1,0 +1,14 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "rollup -w",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "rollup": "^2.42.2"
+  }
+}
