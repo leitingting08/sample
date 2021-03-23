@@ -22,6 +22,14 @@ export default {
     {
       file: 'dist/index.esm.js',
       format: 'esm'
+    },
+    {
+      file: 'dist/index.amd.js',
+      format: 'amd'
+    },
+    {
+      file: 'dist/index.system.js',
+      format: 'system'
     }
   ],
   external: ['lodash']
