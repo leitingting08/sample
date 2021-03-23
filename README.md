@@ -22,4 +22,4 @@ vite.config.js 插件配置，类似于 rollup 配置，采用基于 esbuild 的
 
 ## webpack
 
-可添加 webpak.config.js 配置文件，配置各种需要的 webpack 插件
+可添加 webpak.config.js 配置文件，配置各种需要的 webpack 插件，wepack uglifyjs 插件也实现了 tree-shaking 功能
